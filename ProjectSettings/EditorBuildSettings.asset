@@ -14,5 +14,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game.unity
     guid: b8f5f63ae64474bda88fc66dafdd945f
+  - enabled: 1
+    path: Assets/Win.unity
+    guid: 2ece2209d27f141cbbaef317fb5b124b
+  - enabled: 1
+    path: Assets/Fail.unity
+    guid: 603708d40c05a4207a1d7b8f9776fab5
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

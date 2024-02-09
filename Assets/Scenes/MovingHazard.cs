@@ -14,11 +14,11 @@ public class MovingHazard : MonoBehaviour
         GetComponent<Rigidbody2D>().velocity = new Vector3(-speed, 0, 0);
     }
 
-    public void OnCollisionEnter2D(Collider2D other)
+    public void OnCollisionEnter2D(Collision2D other)
     {
         if (type.tag == "HazardCrouch")
         {
-            if (other.tag == "Player")
+            if (other.collider.tag == "Player")
             {
                 if (player.crouched == false)
                 {
@@ -27,7 +27,7 @@ public class MovingHazard : MonoBehaviour
             }
         }
 
-        if (other.tag == "Player")
+        if (other.collider.tag == "Player")
         {
             SceneManager.LoadScene("Fail");
         }
