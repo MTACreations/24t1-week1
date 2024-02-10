@@ -11,7 +11,14 @@ public class MovingHazard : MonoBehaviour
 
     void FixedUpdate()
     {
-        GetComponent<Rigidbody2D>().velocity = new Vector3(-speed, 0, 0);
+        if (type.tag == "HazardKick")
+        {
+            GetComponent<Rigidbody2D>().velocity = new Vector3(speed, 0, 0);
+        }
+        else
+        {
+            GetComponent<Rigidbody2D>().velocity = new Vector3(-speed, 0, 0);
+        }
     }
 
     public void OnCollisionEnter2D(Collision2D other)
