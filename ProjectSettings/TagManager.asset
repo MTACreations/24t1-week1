@@ -12,6 +12,7 @@ TagManager:
   - Kick
   - HazardKick
   - Goal
+  - Ground
   layers:
   - Default
   - TransparentFX
