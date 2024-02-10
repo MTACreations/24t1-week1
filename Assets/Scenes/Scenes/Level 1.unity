@@ -289,12 +289,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.55, y: 0.16, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 684300719}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519572619
 GameObject:
@@ -699,6 +699,7 @@ Transform:
   m_Children:
   - {fileID: 2050385018}
   - {fileID: 656058684}
+  - {fileID: 519420032}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &684300720
@@ -714,11 +715,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumped: 0
-  attacked: 0
+  kicked: 0
   crouched: 0
+  attacked: 0
   rhythmInput: 0.1
   rhythm: {fileID: 1547687072}
   attack: {fileID: 0}
+  kick: {fileID: 0}
 --- !u!1 &851989107
 GameObject:
   m_ObjectHideFlags: 0
@@ -1889,7 +1892,6 @@ SpriteRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 519420032}
   - {fileID: 519572623}
   - {fileID: 684300719}
   - {fileID: 1547687073}
