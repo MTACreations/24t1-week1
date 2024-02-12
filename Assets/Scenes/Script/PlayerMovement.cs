@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject attack;
     public GameObject kick;
 
-    public void Update()
+    public void FixedUpdate()
     {
         if (rhythm.time < rhythmInput)
         {
