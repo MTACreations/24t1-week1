@@ -6,19 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Scenes/Title.unity
+    path: Assets/Run, Businessman, Run/Scenes/Title.unity
     guid: 6d6b365dca5154dd58e90021afd61068
   - enabled: 1
-    path: Assets/Scenes/Scenes/Tutorial.unity
+    path: Assets/Run, Businessman, Run/Scenes/Tutorial.unity
     guid: 4dee3aea1c1544ba5a22c7291f7d0fc7
   - enabled: 1
-    path: Assets/Scenes/Scenes/Game.unity
-    guid: b8f5f63ae64474bda88fc66dafdd945f
+    path: Assets/Run, Businessman, Run/Scenes/Level 1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Scenes/Win.unity
+    path: Assets/Run, Businessman, Run/Scenes/Win.unity
     guid: 2ece2209d27f141cbbaef317fb5b124b
   - enabled: 1
-    path: Assets/Scenes/Scenes/Fail.unity
+    path: Assets/Run, Businessman, Run/Scenes/Fail.unity
     guid: 603708d40c05a4207a1d7b8f9776fab5
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

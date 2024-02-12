@@ -20,8 +20,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Hazard
+  - Back Hazard
   - 
   - 
   - 
@@ -49,4 +49,28 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1789035609
+    locked: 0
+  - name: Ground
+    uniqueID: 2290876905
+    locked: 0
+  - name: Hazard
+    uniqueID: 4141363771
+    locked: 0
+  - name: Salesmen
+    uniqueID: 3704989083
+    locked: 0
+  - name: Player
+    uniqueID: 1365866811
+    locked: 0
+  - name: Office
+    uniqueID: 1904158737
+    locked: 0
+  - name: Camera
+    uniqueID: 3501584615
+    locked: 0
+  - name: Pause
+    uniqueID: 1537972301
     locked: 0
