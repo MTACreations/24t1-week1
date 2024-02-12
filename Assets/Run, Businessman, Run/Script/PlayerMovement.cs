@@ -117,7 +117,6 @@ public class PlayerMovement : MonoBehaviour
         if (other.tag == "Goal")
         {
             levelComplete.Play();
-            await Task.Delay(800);
             SceneManager.LoadScene("Win");
         }
     }
