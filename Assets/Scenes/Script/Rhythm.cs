@@ -5,9 +5,7 @@ using UnityEngine;
 public class Rhythm : MonoBehaviour
 {
     public float time = 0;
-    public float deactivateBeep;
-    public float timeLimit = 1;
-    public GameObject Beep;
+    public float timeLimit;
 
     void Start()
     {
@@ -19,17 +17,11 @@ public class Rhythm : MonoBehaviour
         time += Time.deltaTime;
         Debug.Log(time);
 
-        if (time >= deactivateBeep)
-        {
-            time = 0;
-            Beep.SetActive(false);
-        }
-
         if (time >= timeLimit)
         {
             time = 0;
             Debug.Log("Beat!");
-            Beep.SetActive(true);
+
         }
     }
 }
