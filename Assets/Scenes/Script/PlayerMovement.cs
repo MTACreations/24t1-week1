@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject attack;
     public GameObject kick;
 
-    public void Update()
+    public void FixedUpdate()
     {
         if (rhythm.time < rhythmInput)
         {
@@ -39,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
                 Attack();
             }
         } else {
+            jumped = false;
             kicked = false;
             attacked = false;
             kick.SetActive(false);
@@ -85,14 +86,6 @@ public class PlayerMovement : MonoBehaviour
         if (other.tag == "Goal")
         {
             SceneManager.LoadScene("Win");
-        }
-    }
-
-    public void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.collider.tag == "Ground" && jumped == true)
-        {
-            jumped = false;
         }
     }
 }
